@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@android:dimen/app_icon_size"
+    android:paddingTop="@android:dimen/app_icon_size"
+    android:paddingBottom="@android:dimen/app_icon_size"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:text="App 1"
+        android:textColor="#ffffff"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/showdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        android:text=""
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:textSize="45dp" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Welcome to activity one"
+        android:textColor="#ffffff"
+        android:textSize="45dp" />
+</LinearLayout>
